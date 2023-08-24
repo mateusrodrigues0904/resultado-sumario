@@ -1,0 +1,171 @@
+@charset "URF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Hanken Grotesk', sans-serif;
+
+    ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow:5px 5px 60px hsla(222, 100%, 96%, 0.5), 10px 10px 60px hsla(241, 100%, 89%, 0.5), 15px 15px 60px hsla(224, 30%, 27%, 0.342);
+}
+#iesquerda{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+#it1{
+    margin:30px;
+    font-size: 22px;
+    color:rgba(255, 255, 255, 0.555);
+    font-weight: 700;
+}
+#icirculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#it2{
+    font-size: 60px;
+    font-weight: 800;
+}
+#it3{
+    color:rgba(255, 255, 255, 0.555);
+}
+#it4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#it5{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.555);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#idireita{
+ width: 300px;
+}
+#it6{
+    margin: 28px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.chabilidades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(250, 124, 145);
+}
+.chabilidades > p > img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.cp1{
+    margin-left: -5px;
+    width: 1px;
+}
+#ireacao{
+    background-color: hsla(0, 100%, 67%, 0.200);
+}
+#ireacaot{
+    color: hsl(0, 100%, 67%);
+}
+#imemoria{
+    background-color: hsl(39, 100%, 56%, 0.200);
+}
+#imemoriat{
+    color: hsl(39, 100%, 56%)
+}
+#iverbal{
+    background-color: hsl(166, 100%, 37%, 0.200);
+}
+#iverbalt{
+    color: hsl(166, 100%, 37%);
+}
+#ivisual{
+    background-color: hsl(234, 85%, 45%, 0.200);
+}
+#ivisualt{
+    color: hsl(234, 85%, 45%);
+}
+.chabilidadesn{
+    margin-left: 100px;
+    color:rgba(0, 0, 0, 0.562);
+    font-weight: 700;
+}
+.chabilidadesn > span{
+    font-weight: 800;
+    color: black;
+}
+#icontinuar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: hsl(224, 30%, 27%);
+    width: 250px;
+    height: 45px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+#icontinuar > h1{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#icontinuar:hover{
+    background-image: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+@media screen and (max-width:650px){
+    body{
+        display: flex;
+        align-items: flex-start;
+    }
+   .principal{
+    display: flex;
+    flex-direction: column;
+    box-shadow:none;
+   }
+   #iesquerda{
+    width: 450px;
+    padding-bottom: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+   }
+   #idireita{
+    background-color: white;
+    width: 450px;
+   }
+   #it6{
+    margin-left: 100px;
+   }
+}
